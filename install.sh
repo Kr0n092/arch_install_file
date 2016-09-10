@@ -18,7 +18,6 @@ echo "Configure slim using https://wiki.archlinux.org/index.php/SLiM"
 pacman -S python --no-confirm
 pacman -S qbittorrent --no-confirm # Download P2P stuff
 pacman -S mcomix --no-confirm # Read comic books
-pacman -S i3lock --no-confirm # Fancy lock screen
 # Install favorite text editor
 pacman -S vim --no-confirm
 # Install favorite DBMS
