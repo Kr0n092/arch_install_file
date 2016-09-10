@@ -6,7 +6,6 @@ pacman -S i3 --no-confirm
 # Install applications through Pacman
 echo "Installing Pacman applications..."
 pacman -S chromium --noconfirm # Favorite internet browser
-pacman -S git --noconfirm
 pacaur -S jre8-openjdk --no-confirm
 pacman -S pacgraph --no-confirm # Make nice graph of packages
 pacman -S zsh --no-confirm 
