@@ -11,7 +11,7 @@ Usage:
 useradd -m -G wheel -s /bin/bash <username>
 passwd <username>
 ```
- - Use ``visudo`` to use sudo for yourself by adding ``<username> ALL=(ALL) ALL`` below root ALL=(ALL) ALL
+ - Use ``visudo`` to use sudo for yourself by adding ``<username> ALL=(ALL) ALL`` below ``root ALL=(ALL) ALL``
  - Reboot
 ```
 reboot
