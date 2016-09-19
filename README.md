@@ -12,7 +12,7 @@ useradd -m -G wheel -s /bin/bash <username>
 passwd <username>
 ```
  - Use ``visudo`` to use sudo for yourself by adding ``<username> ALL=(ALL) ALL`` below ``root ALL=(ALL) ALL``
- - Reboot
+ - Reboot and login to newly created user
 ```
 reboot
 ```
@@ -29,7 +29,11 @@ git clone https://github.com/Kr0n092/arch_install_file.git
 ```
 cd arch_install_file
 ```
- - Install programs
+ - Make install.sh executable
+```
+chmod +x install.sh
+```
+ - Execute shell script
 ```
 ./install.sh
 ```
